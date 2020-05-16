@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #221f1fea;
+  list-style-type: height 1.6;
+}
+
+#showcase {
+  background-image: url("../inthemaking/person.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  background: rgba(0, 153, 255, 0.5);
+  font-size: 50px;
+  color: #fff;
+}
+
+#showcase h2 {
+  background: rgba(0, 153, 255, 0.5);
+  font-size: 50px;
+  color: #fff;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#showxase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #926239;
+  border: #926239 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#a class {
+  background: rgba(0, 153, 255, 0.5);
+}

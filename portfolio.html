@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In the making</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: fit-content;
+      padding: 50px;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+
+<body>
+    <body>
+
+       <center><h2>Portfolio</h2></center>
+       <center><p>Samples of my Portfolio</p></center> 
+        
+        <div class="row">
+          <div class="column">
+            <img src="./mexico.jpg" alt="mexico" style="widows: 400px; height: 400px;">
+          </div>
+          <div class="column">
+            <img src="./people.jpg" alt="people" style="widows: 400px; height: 400px;">
+          </div>
+          <div class="column">
+            <img src="./peru.jpg" alt="production" style="widows: 400px; height: 400px;">
+          </div>
+        </div>
+
+    
+</body>
+</html>
